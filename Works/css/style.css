@@ -1,0 +1,196 @@
+*{
+	font-family: verdana;
+	font-size: 13px;
+	-webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+                  box-sizing: border-box;
+}
+.header{
+	background: url(../images/headerBack.png) repeat-x;
+	padding: 10px 10px 0  10px;
+	text-align:center;
+	color: #000;
+}
+.header img{
+	height: auto;
+	max-width:100%;
+	display: inline;
+}
+.header img:first-child{
+	padding-bottom:12px;
+}
+.bodySec{
+	margin-top: 20px;
+}
+.bodySec>div{
+	width: 33.333333333333333333%;
+	padding: 0 10px;
+	position: relative;
+	float: left;
+}
+.widget{
+	width: 100%;
+	margin-bottom: 20px;
+	position: relative;
+}
+.widget .headerSec{
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	background: rgb(245, 245, 245);
+	height: 27px;
+	font-weight: bold;
+	line-height: 22px;
+}
+.headerSec .close{
+	background: url(../images/close.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-top: 1px;
+	float:right;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.headerSec .resize{
+	background: url(../images/resize.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-top: 4px;
+	float:right;
+	margin-left: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+.widget:hover .headerSec{
+	background: url(../images/header.png) repeat-x;
+	border-top: 0;
+	line-height: 24px;
+}
+.widget:hover .close{
+	margin-top: 2px;
+}
+.widget:hover .resize {
+	margin-top: 5px;
+}
+.widget .contentSec{
+	padding: 5px;
+	border:1px solid #ccc;
+	border-top: 0;
+	background-color: #fff;
+}
+.draggable{
+	z-index: 999;
+}
+.dummy{
+	border: 2px dotted #ccc;
+	margin-bottom: 20px;
+	display: none;
+}
+ul.news{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.news li{
+	margin-top: 10px !important;
+	color: purple;
+	font-weight: bold;
+	margin: 0;
+	padding:0;
+}
+.emptyDiv{
+	position:relative;
+	display: hidden;
+	height: 50px;
+}
+.hzHeroes{
+	height: 200px;
+}
+.bpCent{
+	height: 250px;
+}
+.fantastic{
+	height: 50px;
+}
+.onTime{
+	height: 120px;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: none;
+	background: #000;
+	z-index:999;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  -moz-opacity: 0.2;
+  -khtml-opacity: 0.2;
+  opacity: 0.2;
+}
+.popUp{
+	width: 20%;
+	height:150px;
+	z-index: 1000;
+	position: fixed;
+	background-color: white;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 250px;
+	text-align: center;
+	padding: 10px;
+	border:1px solid #ccc;
+	display: none;
+}
+.popUp span{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+.popUp button{
+	font-family: calibri;
+	padding:0;
+	margin:0;
+	font-weight :bold;
+	margin-top: 35px;
+	padding: 0 10px;
+	font-size: 14px;
+	height:30px;
+}
+
+iframe{width: 100%;overflow-x: hidden;height: 100%;}
+
+.checkBox>div{
+	float: left;
+	width: 50%;	
+	height: 40px;
+}
+.checkBox .one{
+	background-color: red;
+}
+.checkBox .two{
+	background-color: green;
+}
+.checkBox .three{
+	background-color: purple;
+}
+.checkBox .four{
+	background-color: pink;
+}
+.checkBox .five{
+	background-color: orange;
+}
+.checkBox .six{
+	background-color: black;
+}
+.checkBox .seven{
+	background-color: blue;
+}
+.checkBox .eight{
+	background-color: yellow;
+}
+.clear{
+	clear:both;
+}
